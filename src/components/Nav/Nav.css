@@ -1,0 +1,50 @@
+.navbar{
+    margin-bottom: 0;
+}
+
+.navbar-clicky{
+    background-color: #2C98F0;
+    color: #f5f5f5;
+}
+.clicky-brand{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none !important;
+}
+.clicky-brand,
+.clicky-brand:hover,
+.clicky-brand:focus{
+    color: #f5f5f5;
+}
+
+.navbar-clicky-menu{
+    list-style-type: none;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-clicky-menu li{
+    display: table-cell;
+    text-align: center;
+    padding: 11px 0;
+    font-size: 18px;
+}
+
+.navbar-clicky li:first-child{
+    text-align: left;
+}
+
+.navbar-clicky li:last-child{
+    text-align: right;
+}
+
+@media only screen and (max-width : 480px) {
+    .navbar-clicky-menu li,
+    .navbar-clicky-menu li a{
+        font-size: 10px;
+        padding: 17px 0;
+    }
+}
